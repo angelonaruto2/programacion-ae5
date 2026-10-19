@@ -1,7 +1,7 @@
 #modulo para registrar nuevos usuarios
 lista_usuarios = []
 def registrar():
-    nombre = input("Ingrese nombre: ").strip() #strip para evitar
+    nombre = input("Ingrese nombre: ").strip() #strip para evitar espacios 
     apellido = input("Ingrese apellido: ").strip()
     edad = input("Ingrese edad: ").strip()
     dni = input("Ingrese numero de DNI: ").strip()
